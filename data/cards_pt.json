@@ -1,0 +1,1238 @@
+{
+  "prokaryote": {
+    "class": "root",
+    "title": "Procarioto",
+    "description": "Procariotos são organismos viventes caracterizados principalmente pela ausência de um núcleo verdadeiro e de outras organelas delimitadas por membrana, como mitocôndrias e cloroplastos, e pela presença de um único anel de DNA cromossômico estável na região do nucleoide, além de estruturas citoplasmáticas como membrana plasmática, vacúolos, citoesqueleto primitivo e ribossomos. Exemplos de procariotos são bactérias e arqueias.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Prokaryote_cell.svg",
+      "alt": "Prokaryote Cell Diagram",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/prokaryote",
+        "label": "Dictionary: Prokaryote"
+      }
+    ],
+    "associated": [
+      "cell-structure",
+      "central-dogma",
+      "domains",
+      "cellular-metabolism",
+      "dna",
+      "rna",
+      "transcription-translation",
+      "mutations",
+      "microbiomes"
+    ],
+    "associated_names": [
+      "Estrutura Celular",
+      "Dogma Central da Biologia Molecular",
+      "Domínios",
+      "Metabolismo Celular",
+      "RNA",
+      "DNA",
+      "Transcrição e Tradução",
+      "Mutações",
+      "Microbiomas"
+    ],
+    "tag": "img/prokaryote.svg"
+  },
+  "eukaryote": {
+    "class": "root",
+    "title": "Eucarioto",
+    "description": "Eucariotos são organismos cujas células possuem um núcleo verdadeiro envolto por membranas, juntamente com outras organelas delimitadas por membrana, como mitocôndrias, cloroplastos (em plantas e algas) e um extenso citoesqueleto. As células eucariotas são geralmente maiores e mais complexas do que as células procarióticas. Elas incluem todas as espécies de animais, plantas, fungos e protistas.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Animal_Cell.svg/1920px-Animal_Cell.svg.png",
+      "alt": "Diagram of a Eukaryotic (Animal) Cell",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/eukaryote",
+        "label": "Dictionary: Eukaryote"
+      }
+    ],
+    "associated": [
+      "cell-structure",
+      "central-dogma",
+      "domains",
+      "cellular-metabolism",
+      "dna",
+      "rna",
+      "organelles",
+      "transcription-translation",
+      "evolution"
+    ],
+    "associated_names": [
+      "Estrutura Celular",
+      "Dogma Central da Biologia Molecular",
+      "Domínios",
+      "Metabolismo Celular",
+      "DNA",
+      "RNA",
+      "Organelas",
+      "Transcrição e Tradução",
+      "Evolução"
+    ],
+    "tag": "img/eukaryote.svg"
+  },
+  "chromosome": {
+    "class": "root",
+    "title": "Cromossomo",
+    "description": "Cromossomos são estruturas em forma de fio, compostas por proteínas e por uma longa molécula única de DNA, que carregam informações genéticas na célula.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Helix-Pyruvat.png",
+      "alt": "Diagram representing DNA within a chromosome",
+      "width": 600
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Chromosome",
+        "label": "Genome.gov: Chromosome"
+      }
+    ],
+    "associated": [
+      "dna",
+      "nucleus"
+    ],
+    "associated_names": [
+      "DNA",
+      "Núcleo"
+    ],
+    "tag": "img/both.svg"
+  },
+  "nucleus": {
+    "class": "root",
+    "title": "Núcleo",
+    "description": "O núcleo é um organelo delimitado por membrana encontrado em células eucarióticas que contém os cromossomos da célula.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Simple_diagram_of_plant_cell_(en).svg.png",
+      "alt": "Diagram of a plant cell highlighting the nucleus",
+      "width": 768
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Nucleus",
+        "label": "Genome.gov: Nucleus"
+      }
+    ],
+    "associated": [
+      "chromosome",
+      "nucleolus",
+      "dna"
+    ],
+    "associated_names": [
+      "Cromossomo",
+      "Nucléolo",
+      "DNA"
+    ],
+    "tag": "img/eukaryote.svg"
+  },
+  "nucleolus": {
+    "class": "root",
+    "title": "Nucléolo",
+    "description": "O nucléolo é uma estrutura esférica no interior do núcleo, responsável por produzir e montar ribossomos.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Simple_diagram_of_plant_cell_(en).svg.png",
+      "alt": "Diagram of a plant cell highlighting the nucleus (nucleolus region)",
+      "width": 768
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Nucleolus",
+        "label": "Genome.gov: Nucleolus"
+      }
+    ],
+    "associated": [
+      "nucleus",
+      "ribosome"
+    ],
+    "associated_names": [
+      "Núcleo",
+      "Ribossomo"
+    ],
+    "tag": "img/eukaryote.svg"
+  },
+  "cytoplasm": {
+    "title": "Citoplasma",
+    "class": "root",
+    "definition": "O citoplasma é o fluido denso e gelatinoso dentro das células (delimitado pela membrana plasmática) que contém água, sais, proteínas e todas as organelas em células eucarióticas.",
+    "url": "https://www.nature.com/scitable/definition/cytoplasm-280/",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Simple_diagram_of_plant_cell_(en).svg.png",
+      "alt": "Diagram of a plant cell showing the cytoplasm region",
+      "width": 768
+    },
+    "tag": "img/both.svg",
+    "associated": [
+      "cell_membrane",
+      "nucleus"
+    ]
+  },
+  "cell_membrane": {
+    "title": "Membrana Plasmática",
+    "class": "structure",
+    "definition": "A membrana plasmática, também chamada de membrana celular, é uma bicamada lipídica semipermeável que envolve todas as células e regula a passagem de substâncias para dentro e para fora da célula.",
+    "url": "https://www.genome.gov/genetics-glossary/Cell-Membrane-Plasma-Membrane",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Cell_membrane_detailed_diagram_en.svg.png",
+      "alt": "Detailed diagram of the cell membrane lipid bilayer",
+      "width": 400
+    },
+    "associated": [
+      "lipid_bilayer",
+      "permeability",
+      "transport-proteins"
+    ]
+  },
+  "cell_wall": {
+    "title": "Parede Celular",
+    "class": "structure",
+    "definition": "A parede celular é uma camada rígida que envolve células de plantas, fungos e bactérias; nas plantas é feita de celulose. Ela fornece suporte estrutural, proteção e um meio para o movimento de água e nutrientes.",
+    "url": "https://www.britannica.com/science/cell-wall-plant-anatomy",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Celula_planta_annotated.svg",
+      "alt": "Plant cell diagram with cell wall highlighted",
+      "width": 400
+    },
+    "associated": [
+      "cellulose",
+      "structural-support",
+      "osmoregulation"
+    ]
+  },
+  "mitochondrion": {
+    "title": "Mitocôndria",
+    "class": "organelle",
+    "definition": "Mitocôndrias são organelas delimitadas por membrana em células eucarióticas que geram a maior parte da energia química (ATP) utilizada pela célula.",
+    "url": "https://www.genome.gov/genetics-glossary/Mitochondria",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Functional_mitochondrion_en.svg",
+      "alt": "Mitochondrion structure diagram",
+      "width": 600
+    },
+    "associated": [
+      "atp",
+      "cellular-respiration",
+      "cristae",
+      "powerhouse-of-cell"
+    ]
+  },
+  "chloroplast": {
+    "title": "Cloroplasto",
+    "class": "organelle",
+    "definition": "Cloroplasto é uma organela presente em células de plantas e algas que é o local da fotossíntese, contendo clorofila para capturar energia luminosa.",
+    "url": "https://www.britannica.com/science/chloroplast",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Chloroplast_Diagram.svg",
+      "alt": "Diagram of a chloroplast",
+      "width": 400
+    },
+    "associated": [
+      "photosynthesis",
+      "chlorophyll",
+      "stroma",
+      "thylakoid"
+    ]
+  },
+  "ribosome": {
+    "title": "Ribossomo",
+    "class": "organelle",
+    "definition": "Ribossomo é um complexo intracelular de RNA e proteína que serve como local de síntese de proteínas, traduzindo o RNA mensageiro (mRNA) em proteínas.",
+    "url": "https://www.genome.gov/genetics-glossary/Ribosome",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Ribosome_anim.gif",
+      "alt": "Ribosome structure schematic",
+      "width": 400
+    },
+    "associated": [
+      "protein-synthesis",
+      "rRNA",
+      "translation",
+      "protein-factory"
+    ]
+  },
+  "cytoskeleton": {
+    "title": "Citoesqueleto",
+    "class": "structure",
+    "definition": "O citoesqueleto é uma rede de filamentos de proteína (tais como filamentos de actina e microtúbulos) que se estende por todo o citoplasma e confere suporte estrutural, forma e organização às células.",
+    "url": "https://www.nature.com/scitable/definition/cytoplasm-280/",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Cytoskeleton_Structure.png",
+      "alt": "Cytoskeleton components diagram",
+      "width": 400
+    },
+    "associated": [
+      "actin",
+      "microtubules",
+      "cell-shape",
+      "motility"
+    ]
+  },
+  "flagellum": {
+    "title": "Flagelo",
+    "class": "structure",
+    "definition": "Flagelo é um apêndice celular longo e em forma de chicote que propulsiona a célula através de um fluido; por exemplo, muitas bactérias possuem flagelos helicoidais rotativos que lhes permitem nadar.",
+    "url": "https://commons.wikimedia.org/wiki/File:Flagellum_base_diagram-_En.svg",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/73/Flagellum.png",
+      "alt": "Flagellum structure illustration",
+      "width": 400
+    },
+    "associated": [
+      "motility",
+      "axoneme",
+      "motor-proteins",
+      "propulsion"
+    ]
+  },
+  "plasmid": {
+    "title": "Plasmídeo",
+    "class": "structure",
+    "definition": "Plasmídeo é uma pequena molécula circular de DNA encontrada em bactérias e em algumas células eucarióticas que é separada do DNA cromossômico. Os plasmídeos replicam-se independentemente e frequentemente carregam genes, como aqueles para resistência a antibióticos.",
+    "url": "https://www.britannica.com/science/plasmid",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Plasmid_model.svg",
+      "alt": "Circular plasmid DNA diagram",
+      "width": 400
+    },
+    "associated": [
+      "horizontal-gene-transfer",
+      "antibiotic-resistance",
+      "circular-DNA",
+      "genetic-engineering"
+    ]
+  },
+  "nucleic-acids": {
+    "class": "root",
+    "title": "Ácidos Nucleicos",
+    "description": "Ácidos nucleicos são compostos complexos constituídos por cadeias de monômeros chamados nucleotídeos. Cada unidade monomérica é composta por um grupo fosfato, uma molécula de açúcar e uma base nitrogenada. Os ácidos nucleicos estão envolvidos na preservação, replicação e expressão da informação hereditária em todas as células vivas.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/NucleicAcid.svg",
+      "alt": "",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/nucleic-acid",
+        "label": "Dictionary: Nucleic Acid"
+      }
+    ],
+    "associated": [
+      "dna",
+      "rna",
+      "central-dogma",
+      "transcription-translation",
+      "mutations",
+      "genetic-expression"
+    ],
+    "associated_names": [
+      "DNA",
+      "RNA",
+      "Dogma Central da Biologia Molecular",
+      "Transcrição e Tradução",
+      "Mutações",
+      "Expressão Genética"
+    ],
+    "tag": "img/both.svg"
+  },
+  "cell-structure": {
+    "class": "root",
+    "title": "Estrutura Celular",
+    "description": "O interior das células humanas está dividido em núcleo e citoplasma. O núcleo é uma estrutura esférica ou em forma de oval no centro da célula. O citoplasma é a região fora do núcleo que contém organelas celulares e citosol, ou solução citoplasmática. O fluido intracelular é, coletivamente, o citosol e o fluido presente dentro das organelas e do núcleo celular.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Cell_structure.png",
+      "alt": "",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/tutorials/cell-structure",
+        "label": "Dictionary: Cell Structure"
+      }
+    ],
+    "associated": [
+      "prokaryote",
+      "domains",
+      "cellular-metabolism",
+      "mitosis",
+      "meiosis",
+      "cell-cycle",
+      "oxidative-phosphorylation",
+      "glycolysis-krebs"
+    ],
+    "associated_names": [
+      "Procariotos",
+      "Domínios",
+      "Metabolismo Celular",
+      "Mitose",
+      "Meiose",
+      "Ciclo Celular",
+      "Fosforilação Oxidativa",
+      "Glicólise e Ciclo de Krebs"
+    ],
+    "tag": "img/both.svg"
+  },
+  "evolution": {
+    "class": "root",
+    "title": "Evolução",
+    "description": "A evolução é definida como uma mudança na composição genética de uma população ao longo de gerações sucessivas. Quando ouvimos 'evolução', frequentemente pensamos em uma mudança progressiva. No entanto, as mudanças evolutivas não são dirigidas para a perfeição nem para algum objetivo definido.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/DarwinsfinchesEvolution.png",
+      "alt": "",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/evolution",
+        "label": "Dictionary: Evolution"
+      }
+    ],
+    "associated": [
+      "mutations",
+      "genetic-recombination",
+      "epigenetics",
+      "molecular-biology",
+      "microbiomes",
+      "evolutionary-trees"
+    ],
+    "associated_names": [
+      "Mutações",
+      "Recombinação Genética",
+      "Epigenética",
+      "Biologia Molecular (conceito amplo)",
+      "Microbiomas",
+      "Árvores Evolutivas (Filogenética)"
+    ],
+    "tag": "img/both.svg"
+  },
+  "central-dogma": {
+    "class": "root",
+    "title": "Dogma Central da Biologia Molecular",
+    "description": "Provavelmente já se ouviu falar nos conceitos de transcrição e tradução no dogma central da biologia molecular. O dogma é uma explicação de como uma proteína é gerada com base no que o DNA contém. Nesse esquema, o processo inicia-se com a molécula de DNA sendo transcrita em RNA, num processo chamado transcrição, seguido pela produção de uma proteína a partir do RNA, num processo chamado tradução.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Crick%27s_1958_central_dogma.svg",
+      "alt": "",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/articles/a-protein-being-born-a-live-cell-imaging-of-rna-translation",
+        "label": "Article A Protein Being Born – a live cell imaging of RNA translation"
+      }
+    ],
+    "associated": [
+      "dna",
+      "rna",
+      "transcription-translation",
+      "mutations"
+    ],
+    "associated_names": [
+      "DNA",
+      "RNA",
+      "Transcrição e Tradução",
+      "Mutações"
+    ],
+    "tag": "img/both.svg"
+  },
+  "genetic-expression": {
+    "class": "trunk",
+    "title": "Expressão Genética",
+    "description": "A expressão gênica é o processo pelo qual a informação codificada em um gene é transformada em uma função. Isso ocorre principalmente por meio da transcrição de moléculas de RNA que codificam proteínas ou de moléculas de RNA não codificadoras que desempenham outras funções. A expressão gênica pode ser vista como um \"interruptor liga/desliga\" para controlar quando e onde as moléculas de RNA e proteínas são produzidas, bem como um \"controle de volume\" para determinar a quantidade desses produtos produzidos. O processo de expressão gênica é cuidadosamente regulado, mudando substancialmente sob diferentes condições e tipos celulares. Os produtos de RNA e proteína de muitos genes servem para regular a expressão de outros genes. Onde, quando e quanto um gene é expresso também pode ser avaliado pela medição da atividade funcional de um produto gênico ou pela observação de um fenótipo associado a esse gene.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Regulation_of_gene_expression_by_steroid_hormone_receptor.svg",
+      "alt": "",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Gene-Expression?utm_source=chatgpt.com",
+        "label": "Glossary Gene expression"
+      }
+    ],
+    "associated": [
+      "dna",
+      "rna",
+      "transcription-translation",
+      "gene-regulation",
+      "central-dogma"
+    ],
+    "associated_names": [
+      "DNA",
+      "RNA",
+      "Transcrição e Tradução",
+      "Regulação Gênica",
+      "Dogma Central da Biologia Molecular"
+    ],
+    "tag": ""
+  },
+  "mitosis": {
+    "class": "trunk",
+    "title": "Mitose",
+    "description": "Na biologia, mitose refere-se ao processo celular em que uma única célula se divide resultando em duas células idênticas. Por \"idênticas\" entende-se que ambas as células possuem o mesmo número de cromossomos e conteúdo genético. As etapas da mitose incluem pré-prófase (em células vegetais), prófase, prometáfase, metáfase, anáfase e telófase. Não está claro em que ponto cada fase começa ou termina, pois essas fases aparentemente se sobrepõem. No entanto, cada uma delas é marcada por eventos distintos.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Mitosis_Stages.svg",
+      "alt": "",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/mitosis",
+        "label": "Dictionary Mitosis"
+      }
+    ],
+    "associated": [
+      "cell-cycle",
+      "embryology-development",
+      "cell-structure",
+      "domains"
+    ],
+    "associated_names": [
+      "Ciclo Celular",
+      "Embriologia e Desenvolvimento",
+      "Estrutura Celular",
+      "Domínios"
+    ],
+    "tag": "img/both.svg"
+  },
+  "meiosis": {
+    "class": "trunk",
+    "title": "Meiose",
+    "description": "Uma definição simples de meiose seria: meiose é o processo de divisão celular que resulta na produção de uma célula filha haploide com o número haploide de cromossomos de uma célula parental (ou “original”) diplóide. A célula haploide resultante após a meiose terá apenas um dos vários pares de cromossomos homólogos da célula parental.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Meiosis_Stages.svg",
+      "alt": "",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/meiosis",
+        "label": "Dictionary Meiosis"
+      }
+    ],
+    "associated": [
+      "cell-cycle",
+      "embryology-development",
+      "cell-structure",
+      "domains"
+    ],
+    "associated_names": [
+      "Ciclo Celular",
+      "Embriologia e Desenvolvimento",
+      "Estrutura Celular",
+      "Domínios"
+    ],
+    "tag": "img/both.svg"
+  },
+  "domains": {
+    "class": "trunk",
+    "title": "Domínios",
+    "description": "Em taxonomia biológica, domínio é a categoria de classificação da vida de ordem mais alta, acima mesmo de um reino. Carl Woese introduziu um sistema de classificação de três domínios em 1990, no qual os organismos são divididos em três domínios: Archaea, Bacteria e Eukarya. Tanto o domínio Bacteria quanto o domínio Archaea incluem organismos procarióticos, enquanto o domínio Eukarya inclui todos os organismos eucarióticos.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/3_domains_of_life.png",
+      "alt": "",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/domain?utm_source=chatgpt.com",
+        "label": "Dictionary Domains"
+      }
+    ],
+    "associated": [
+      "prokaryote",
+      "cell-structure",
+      "mitosis",
+      "meiosis",
+      "evolution"
+    ],
+    "associated_names": [
+      "Procariotos",
+      "Estrutura Celular",
+      "Mitose",
+      "Meiose",
+      "Evolução"
+    ],
+    "tag": "img/both.svg"
+  },
+  "embryology-development": {
+    "class": "trunk",
+    "title": "Embriologia e Desenvolvimento",
+    "description": "A embriologia é um ramo da biologia que trata dos tópicos relacionados à formação de gametas (gametogênese), à fusão de gametas (fertilização) e à formação de embriões (embriogênese). Por definição, a embriologia abrange o desenvolvimento de embriões de plantas e animais. Porém, em um sentido mais geral, estudamos a embriologia animal ou humana quando nos referimos ao contexto médico.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Da_Vinci_Studies_of_Embryos_Luc_Viatour.jpg",
+      "alt": "",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/embryology",
+        "label": "Glossary Embriology"
+      }
+    ],
+    "associated": [
+      "mitosis",
+      "meiosis",
+      "cell-cycle"
+    ],
+    "associated_names": [
+      "Mitose",
+      "Meiose",
+      "Ciclo Celular"
+    ],
+    "tag": "img/eukaryote.svg"
+  },
+  "cell-cycle": {
+    "class": "trunk",
+    "title": "Ciclo Celular",
+    "description": "O ciclo celular refere-se à sequência de crescimento e divisão de uma célula. Essencialmente, o ciclo celular envolve a duplicação do DNA por meio da replicação do DNA, o que leva à divisão da célula-mãe, gerando duas células-filhas. Esses processos são essenciais para o crescimento, replicação e divisão celular.",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/cell-cycle",
+        "label": "Dictionary cell cycle"
+      }
+    ],
+    "associated": [
+      "mitosis",
+      "meiosis",
+      "embryology-development",
+      "cell-structure"
+    ],
+    "associated_names": [
+      "Mitose",
+      "Meiose",
+      "Embriologia e Desenvolvimento",
+      "Estrutura Celular"
+    ],
+    "tag": ""
+  },
+  "rna": {
+    "class": "trunk",
+    "title": "RNA",
+    "description": "Ácido nucleico que frequentemente é de fita simples e dobrado sobre si mesmo, composto por unidades repetidas de nucleotídeos com açúcar ribose, grupo fosfato e base nitrogenada.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Double-stranded_RNA.gif",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/ribonucleic-acid",
+        "label": "Dictionary RNA"
+      }
+    ],
+    "associated": [
+      "dna",
+      "central-dogma",
+      "transcription-translation",
+      "genetic-expression"
+    ],
+    "associated_names": [
+      "DNA",
+      "Dogma Central da Biologia Molecular",
+      "Transcrição e Tradução",
+      "Expressão Genética"
+    ],
+    "tag": "img/both.svg"
+  },
+  "transcription-translation": {
+    "class": "trunk",
+    "title": "Transcrição e Tradução",
+    "description": "Na biologia, transcrição é o processo de copiar informações genéticas armazenadas em uma fita de DNA em uma fita complementar de RNA (RNA mensageiro ou mRNA) com o auxílio de RNA polimerases. Em procariotos, esse processo ocorre no citoplasma; em eucariotos, ocorre dentro do núcleo. Em biologia, tradução é uma etapa da biossíntese de proteínas em que um código genético de uma fita de mRNA é decodificado para produzir uma sequência específica de aminoácidos.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Transcription_and_Translation.png",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/translation-biology",
+        "label": "Glossary Translation"
+      },
+      {
+        "url": "https://www.biologyonline.com/dictionary/transcription-biology",
+        "label": "Glossary Transcription"
+      }
+    ],
+    "associated": [
+      "dna",
+      "rna",
+      "central-dogma",
+      "gene-regulation"
+    ],
+    "associated_names": [
+      "DNA",
+      "RNA",
+      "Dogma Central da Biologia Molecular",
+      "Regulação Gênica"
+    ],
+    "tag": "img/both.svg"
+  },
+  "dna": {
+    "class": "trunk",
+    "title": "DNA",
+    "description": "Ácido nucleico que consiste em cadeias lineares de nucleotídeos. Cada nucleotídeo é composto por um grupo fosfato, uma molécula de açúcar (desoxirribose) e uma base nitrogenada. Ácidos nucleicos estão envolvidos na preservação, replicação e expressão da informação hereditária. Dois tipos principais de ácidos nucleicos são o ácido desoxirribonucleico (DNA) e o ácido ribonucleico (RNA).",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/16/DNA_orbit_animated.gif",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/deoxyribonucleic-acid",
+        "label": "Glossary DNA"
+      }
+    ],
+    "associated": [
+      "rna",
+      "central-dogma",
+      "transcription-translation",
+      "genetic-expression"
+    ],
+    "associated_names": [
+      "RNA",
+      "Dogma Central da Biologia Molecular",
+      "Transcrição e Tradução",
+      "Expressão Genética"
+    ],
+    "tag": "img/both.svg"
+  },
+  "gene-regulation": {
+    "class": "trunk",
+    "title": "Regulação Gênica",
+    "description": "Em procariotos, o DNA está localizado no citoplasma, de modo que a tradução pode começar mesmo antes de a transcrição ser concluída. Por isso, a maior parte da regulação gênica ocorre ao nível da transcrição em procariotos. Entretanto, em eucariotos, o DNA é separado do citoplasma pelo invólucro nuclear, de modo que o mRNA precisa alcançar os ribossomos desde o núcleo. A atividade gênica pode, portanto, ser regulada na transcrição, na tradução ou mesmo após a tradução pela modificação da proteína traduzida. Outra diferença é que genes de eucariotos não estão agrupados em operons controlados por um único promotor. A maioria dos genes codifica apenas uma proteína, e cada gene possui seu próprio promotor.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Gene_Regulation.svg",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/tutorials/gene-regulation-in-prokaryotes",
+        "label": "Tutorial Gene Regulation in Prokaryotes"
+      }
+    ],
+    "associated": [
+      "dna",
+      "rna",
+      "transcription-translation",
+      "central-dogma"
+    ],
+    "associated_names": [
+      "DNA",
+      "RNA",
+      "Transcrição e Tradução",
+      "Dogma Central da Biologia Molecular"
+    ],
+    "tag": "img/eukaryote.svg"
+  },
+  "oxidative-phosphorylation": {
+    "class": "trunk",
+    "title": "Fosforilação Oxidativa",
+    "description": "Via metabólica que gera ATP a partir de ADP por meio de uma fosforilação que obtém energia da oxidação de nutrientes",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Oxidative_phosphorylation.png",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/oxidative-phosphorylation",
+        "label": "Glossary Gene expression"
+      }
+    ],
+    "associated": [
+      "cellular-metabolism",
+      "glycolysis-krebs"
+    ],
+    "associated_names": [
+      "Metabolismo Celular",
+      "Glicólise e Ciclo de Krebs"
+    ],
+    "tag": "img/both.svg"
+  },
+  "glycolysis-krebs": {
+    "class": "trunk",
+    "title": "Glicólise e Ciclo de Krebs",
+    "description": "Glicólise é uma via metabólica pela qual a molécula de glicose de 6 carbonos é quebrada em uma molécula de 3 carbonos chamada piruvato em uma série de reações bioquímicas complexas de oxidação. O ciclo de Krebs, também conhecido como ciclo do ácido cítrico ou ciclo do ácido tricarboxílico (TCA), é uma via metabólica fundamental que ocorre nas mitocôndrias de células eucarióticas e no citoplasma de células procarióticas.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Net_reactions_for_glycolysis_of_glucose%2C_oxidative_decarboxylation_of_pyruvate%2C_and_Krebs_cycle..png",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/glycolysis",
+        "label": "Glossary Glycolysis"
+      },
+      {
+        "url": "https://www.biologyonline.com/dictionary/krebs-cycle",
+        "label": "Glossary Krebs"
+      }
+    ],
+    "associated": [
+      "oxidative-phosphorylation",
+      "cellular-metabolism"
+    ],
+    "associated_names": [
+      "Fosforilação Oxidativa",
+      "Metabolismo Celular"
+    ],
+    "tag": ""
+  },
+  "genetic-recombination": {
+    "class": "branch",
+    "title": "Recombinação Genética",
+    "description": "Recombinação genética é um processo biológico natural onde cadeias de DNA são quebradas e recombinadas para produzir novas combinações de material genético. Isso contribui para a diversidade genética nas populações e é essencial para a evolução e para a segregação correta dos cromossomos durante a meiose.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Homologous_Recombination.jpg",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Genetic-Recombination",
+        "label": "Genetics Home Reference: Genetic Recombination"
+      }
+    ],
+    "associated": [
+      "mutations",
+      "evolution",
+      "molecular-biology"
+    ],
+    "associated_names": [
+      "Mutações",
+      "Evolução",
+      "Biologia Molecular (conceito amplo)"
+    ],
+    "tag": "img/eukaryote.svg"
+  },
+  "epigenetics": {
+    "class": "branch",
+    "title": "Epigenética",
+    "description": "Epigenética estuda mudanças hereditárias na expressão gênica que não envolvem alterações na sequência de DNA subjacente. Mecanismos incluem metilação de DNA, modificação de histonas e silenciamento associado a RNA, que regulam a atividade gênica e podem ser influenciados por fatores ambientais.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Epigenetic_priming_in_Cancer.png",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.nature.com/subjects/epigenetics",
+        "label": "Nature: Epigenetics"
+      }
+    ],
+    "associated": [
+      "gene-regulation",
+      "molecular-biology",
+      "genetic-recombination"
+    ],
+    "associated_names": [
+      "Regulação Gênica",
+      "Biologia Molecular (conceito amplo)",
+      "Recombinação Genética"
+    ],
+    "tag": "img/eukaryote.svg"
+  },
+  "crispr": {
+    "class": "branch",
+    "title": "CRISPR",
+    "description": "CRISPR (repetições curtas palindrômicas agrupadas regularmente) é uma tecnologia de edição de genes derivada de sistemas imunológicos bacterianos. Ela permite a modificação precisa de sequências de DNA em organismos vivos e revolucionou a engenharia genética e a pesquisa em terapia gênica.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ype-I_CRISPR_RNA.png",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/articles/crispr-diy-biohacking-genes-at-home",
+        "label": "Article: CRISPR Technology"
+      }
+    ],
+    "associated": [
+      "genetic-recombination",
+      "molecular-biology",
+      "mutations"
+    ],
+    "associated_names": [
+      "Recombinação Genética",
+      "Biologia Molecular (conceito amplo)",
+      "Mutações"
+    ],
+    "tag": "img/eukaryote.svg"
+  },
+  "cloning": {
+    "class": "branch",
+    "title": "Clonagem",
+    "description": "Clonagem refere-se à criação de cópias geneticamente idênticas de material biológico, como genes, células ou organismos inteiros. As técnicas incluem clonagem molecular de DNA e clonagem reprodutiva, o que levanta questões éticas e biológicas.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cloning_diagram_english.svg",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Cloning",
+        "label": "Genetics Home Reference: Cloning"
+      }
+    ],
+    "associated": [
+      "molecular-biology",
+      "genetic-expression"
+    ],
+    "associated_names": [
+      "Biologia Molecular (conceito amplo)",
+      "Expressão Genética"
+    ],
+    "tag": ""
+  },
+  "bioinformatics": {
+    "class": "branch",
+    "title": "Bioinformática",
+    "description": "Bioinformática combina biologia, ciência da computação e estatística para analisar e interpretar dados biológicos, especialmente sequências genéticas. Ela apoia a pesquisa em genômica, proteômica e biologia molecular por meio de ferramentas de software e bancos de dados.",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3495300/",
+        "label": "NCBI: Introduction to Bioinformatics"
+      }
+    ],
+    "associated": [
+      "molecular-biology",
+      "genetic-recombination"
+    ],
+    "associated_names": [
+      "Biologia Molecular (conceito amplo)",
+      "Recombinação Genética"
+    ],
+    "tag": ""
+  },
+  "enzyme-activity": {
+    "class": "branch",
+    "title": "Atividade Enzimática",
+    "description": "A atividade enzimática refere-se à velocidade com que enzimas catalisam reações bioquímicas. É influenciada por fatores como concentração de substrato, temperatura, pH e inibidores, e é fundamental para o metabolismo celular.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Coupled_assay_tr.png",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK22387/",
+        "label": "NCBI Bookshelf: Enzyme Activity"
+      }
+    ],
+    "associated": [
+      "cellular-metabolism",
+      "molecular-biology"
+    ],
+    "associated_names": [
+      "Metabolismo Celular",
+      "Biologia Molecular (conceito amplo)"
+    ],
+    "tag": ""
+  },
+  "cellular-signaling": {
+    "class": "branch",
+    "title": "Sinalização Celular",
+    "description": "A sinalização celular engloba os processos pelos quais as células se comunicam e respondem a sinais externos e internos por meio de receptores, segundos mensageiros e vias de sinalização. Ela controla o crescimento, a diferenciação e a homeostase.",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.nature.com/subjects/cell-signaling",
+        "label": "Nature: Cell Signaling"
+      }
+    ],
+    "associated": [
+      "molecular-biology",
+      "enzyme-activity"
+    ],
+    "associated_names": [
+      "Biologia Molecular (conceito amplo)",
+      "Atividade Enzimática"
+    ],
+    "tag": ""
+  },
+  "genome": {
+    "class": "leaf",
+    "title": "Genoma",
+    "description": "O genoma é o conjunto completo de DNA, incluindo todos os seus genes, em um organismo ou vírus.",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Genome",
+        "label": "Genetics Home Reference: Genome"
+      }
+    ],
+    "associated": [
+      "genomics"
+    ],
+    "associated_names": [
+      "Genômica"
+    ],
+    "tag": ""
+  },
+  "genetic-mapping": {
+    "class": "leaf",
+    "title": "Mapeamento Genético",
+    "description": "Processo de determinar a localização e a sequência química de genes específicos em cromossomos.",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Genetic-Map-Overview",
+        "label": "Genome.gov: Genetic Map Overview"
+      }
+    ],
+    "associated": [
+      "genomics"
+    ],
+    "associated_names": [
+      "Genômica"
+    ],
+    "tag": ""
+  },
+  "genomics": {
+    "class": "leaf",
+    "title": "Genômica",
+    "description": "Genômica é o estudo de genomas, sua estrutura, função, evolução e mapeamento.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Omics-en.svg",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Genomics",
+        "label": "Genetics Home Reference: Genomics"
+      }
+    ],
+    "associated": [
+      "genome",
+      "genetic-mapping"
+    ],
+    "associated_names": [
+      "Genoma",
+      "Mapeamento Genético"
+    ],
+    "tag": ""
+  },
+  "transcriptomics": {
+    "class": "leaf",
+    "title": "Transcriptômica",
+    "description": "A transcriptômica é o estudo das transcrições de RNA produzidas pelo genoma, incluindo sua quantidade e sequência sob condições específicas.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Omics-en.svg",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Transcriptome",
+        "label": "Genetics Home Reference: Transcriptome"
+      }
+    ],
+    "associated": [
+      "genomics",
+      "genetic-expression"
+    ],
+    "associated_names": [
+      "Genômica",
+      "Expressão Genética"
+    ],
+    "tag": ""
+  },
+  "proteomics": {
+    "class": "leaf",
+    "title": "Proteômica",
+    "description": "A proteômica é o estudo em larga escala das proteínas, suas estruturas, funções e interações.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Omics-en.svg",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Proteomics",
+        "label": "Genetics Home Reference: Proteomics"
+      }
+    ],
+    "associated": [
+      "genomics",
+      "transcriptomics"
+    ],
+    "associated_names": [
+      "Genômica",
+      "Transcriptômica"
+    ],
+    "tag": ""
+  },
+  "conservation-genetics": {
+    "class": "leaf",
+    "title": "Genética da Conservação",
+    "description": "Genética da conservação é a aplicação da genética para preservar a diversidade de espécies e prevenir a extinção.",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.nature.com/subjects/conservation-genetics",
+        "label": "Nature: Conservation Genetics"
+      }
+    ],
+    "associated": [
+      "evolution",
+      "genetics"
+    ],
+    "associated_names": [
+      "Evolução",
+      "Genética"
+    ],
+    "tag": ""
+  },
+  "synthetic-biology": {
+    "class": "leaf",
+    "title": "Biologia Sintética",
+    "description": "Biologia sintética é a engenharia de organismos para projetar e construir novas partes e sistemas biológicos.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Synthetic_Biology_Enabled_Microbiome_Engineering_in_Sustainable_Agriculture.jpg",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.nature.com/subjects/synthetic-biology",
+        "label": "Nature: Synthetic Biology"
+      }
+    ],
+    "associated": [
+      "genetic-engineering",
+      "biotechnology"
+    ],
+    "associated_names": [
+      "Engenharia Genética",
+      "Biotecnologia"
+    ],
+    "tag": ""
+  },
+  "personalized-medicine": {
+    "class": "leaf",
+    "title": "Medicina Personalizada",
+    "description": "Medicina personalizada é o ajuste do tratamento médico com base em perfis genéticos individuais.",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/health/Precision-Medicine",
+        "label": "Genetics Home Reference: Precision Medicine"
+      }
+    ],
+    "associated": [
+      "genomics",
+      "medical-applications"
+    ],
+    "associated_names": [
+      "Genômica",
+      "Aplicações Médicas"
+    ],
+    "tag": ""
+  },
+  "microbiomes": {
+    "class": "leaf",
+    "title": "Microbiomas",
+    "description": "Microbiomas são os genomas coletivos dos microrganismos que vivem em um ambiente específico, como o intestino humano.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Personalized_Cancer_Therapy.png",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Microbiome",
+        "label": "Genetics Home Reference: Microbiome"
+      }
+    ],
+    "associated": [
+      "genomics",
+      "microbiology"
+    ],
+    "associated_names": [
+      "Genômica",
+      "Microbiologia"
+    ],
+    "tag": ""
+  },
+  "evolutionary-trees": {
+    "class": "leaf",
+    "title": "Árvores Evolutivas (Filogenética)",
+    "description": "Árvores evolutivas (filogenia) são diagramas que mostram relações evolutivas entre espécies com base em dados genéticos ou morfológicos.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Phylogenetic_Tree_of_Rodentia.jpg",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.nature.com/subjects/phylogenetics",
+        "label": "Nature: Phylogenetics"
+      }
+    ],
+    "associated": [
+      "evolution"
+    ],
+    "associated_names": [
+      "Evolução"
+    ],
+    "tag": ""
+  },
+  "medical-applications": {
+    "class": "leaf",
+    "title": "Aplicações Médicas",
+    "description": "Aplicações médicas referem-se ao uso do conhecimento e técnicas biológicas no diagnóstico, tratamento e prevenção de doenças.",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4285979/",
+        "label": "NCBI PMC: Medical Applications of Biotechnology"
+      }
+    ],
+    "associated": [
+      "personalized-medicine",
+      "genetic-therapy"
+    ],
+    "associated_names": [
+      "Medicina Personalizada",
+      "Terapia Gênica"
+    ],
+    "tag": ""
+  },
+  "dna-sequencing": {
+    "class": "leaf",
+    "title": "Sequenciamento de DNA",
+    "description": "Sequenciamento de DNA envolve técnicas usadas para determinar a ordem exata dos nucleotídeos em uma molécula de DNA.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Duplex_sequencing_overview_alphabeta_fix.svg",
+      "alt": ""
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/DNA-Sequencing",
+        "label": "Genetics Home Reference: DNA Sequencing"
+      }
+    ],
+    "associated": [
+      "genomics",
+      "genetic-mapping"
+    ],
+    "associated_names": [
+      "Genômica",
+      "Mapeamento Genético"
+    ],
+    "tag": ""
+  }
+}
