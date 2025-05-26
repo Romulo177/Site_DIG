@@ -27,7 +27,7 @@ function generateCard(data) {
     <button class="flip"><span style="opacity:0;">Flip</span></button>
     <button class="close"><span style="opacity:0;">Close</span></button>
     <p>${data.description}</p>
-    <p>Associated cards:</p>
+    <p>Cartões associados:</p>
     ${associatedLinksHTML}
     <img class="tag" src="${data.tag}">
   `;
