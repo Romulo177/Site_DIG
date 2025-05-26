@@ -22,7 +22,204 @@
     ],
     "tag": "img/prokaryote.svg"
     },
-  "nucleic-acids": {
+  "eukaryote": {
+    "class": "root",
+    "title": "Eukaryote",
+    "description": "Eukaryotes are organisms whose cells have a true nucleus enclosed within membranes, along with other membrane-bound organelles such as <a class=\"root_link\" data-id=\"mitochondrion\">mitochondria</a>, <a class=\"root_link\" data-id=\"chloroplast\">chloroplasts</a> (in plants and algae), and an extensive <a class=\"root_link\" data-id=\"cytoskeleton\">cytoskeleton</a>. Eukaryotic cells are generally larger and more complex than prokaryotic cells. They include all animal, plant, fungal, and protist species.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Animal_Cell.svg/1920px-Animal_Cell.svg.png",
+      "alt": "Diagram of a Eukaryotic (Animal) Cell",
+      "width": 400
+    },
+    "links": [
+      {
+        "url": "https://www.biologyonline.com/dictionary/eukaryote",
+        "label": "Dictionary: Eukaryote"
+      }
+    ],
+    "associated": ["cell-structure", "genetic-code", "central-dogma", "domains", "cellular-metabolism", "dna", "rna", "organelles", "transcription-translation", "evolution"],
+    "associated_names": [
+      "Cell Structure", "Genetic Code", "Central Dogma of Molecular Biology",
+      "Domains", "Cellular Metabolism", "DNA", "RNA", "Organelles",
+      "Transcription and Translation", "Evolution"
+    ],
+    "tag": "img/eukaryote.svg"
+  },
+    "chromosome": {
+    "class": "root",
+    "title": "Chromosome",
+    "description": "Chromosomes are thread-like structures made of protein and a single long molecule of DNA, which carry genetic information in the cell.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Helix-Pyruvat.png",
+      "alt": "Diagram representing DNA within a chromosome",
+      "width": 600
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Chromosome",
+        "label": "Genome.gov: Chromosome"
+      }
+    ],
+    "associated": ["dna", "nucleus"],
+    "associated_names": ["DNA", "Nucleus"],
+    "tag": "img/both.svg"
+  },
+  "nucleus": {
+    "class": "root",
+    "title": "Nucleus",
+    "description": "The nucleus is a membrane-enclosed organelle found in eukaryotic cells that contains the cell’s chromosomes.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Simple_diagram_of_plant_cell_(en).svg.png",
+      "alt": "Diagram of a plant cell highlighting the nucleus",
+      "width": 768
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Nucleus",
+        "label": "Genome.gov: Nucleus"
+      }
+    ],
+    "associated": ["chromosome", "nucleolus", "dna"],
+    "associated_names": ["Chromosome", "Nucleolus", "DNA"],
+    "tag": "img/eukaryote.svg"
+  },
+  "nucleolus": {
+    "class": "root",
+    "title": "Nucleolus",
+    "description": "The nucleolus is a spherical structure within the nucleus, responsible for producing and assembling ribosomes.",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Simple_diagram_of_plant_cell_(en).svg.png",
+      "alt": "Diagram of a plant cell highlighting the nucleus (nucleolus region)",
+      "width": 768
+    },
+    "links": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Nucleolus",
+        "label": "Genome.gov: Nucleolus"
+      }
+    ],
+    "associated": ["nucleus", "ribosome"],
+    "associated_names": ["Nucleus", "Ribosome"],
+    "tag": "img/eukaryote.svg"
+  },
+  "cytoplasm":{
+      "title": "Cytoplasm",
+      "class": "root",
+      "definition": "The cytoplasm is the thick, gel-like fluid inside cells (bounded by the cell membrane) that contains water, salts, proteins, and all organelles in eukaryotic cells.",
+      "url": "https://www.nature.com/scitable/definition/cytoplasm-280/",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Simple_diagram_of_plant_cell_(en).svg.png",
+        "alt": "Diagram of a plant cell showing the cytoplasm region",
+        "width": 768
+      },
+      "tag": "img/both.svg",
+      "associated": ["cell_membrane", "nucleus"]
+    },
+    "cell_membrane":{
+      "title": "Cell Membrane",
+      "class": "structure",
+      "definition": "The cell membrane, also called the plasma membrane, is a semipermeable lipid bilayer that surrounds all cells and regulates the passage of substances into and out of the cell.",
+      "url": "https://www.genome.gov/genetics-glossary/Cell-Membrane-Plasma-Membrane",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Cell_membrane_detailed_diagram_en.svg.png",
+        "alt": "Detailed diagram of the cell membrane lipid bilayer",
+        "width": 768
+      },
+      "tag": "img/both.svg",
+      "associated": ["cell_wall", "cytoplasm"]
+    },
+    "cell_wall":{
+      "title": "Cell Wall",
+      "class": "root",
+      "definition": "The cell wall is a rigid layer surrounding plant, fungal, and bacterial cells; in plants it is made of cellulose. It provides structural support, protection, and a medium for water and nutrient movement.",
+      "url": "https://www.britannica.com/science/cell-wall-plant-anatomy",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Plant_cell_wall_diagram-id.svg/2560px-Plant_cell_wall_diagram-id.svg.png",
+        "alt": "Diagram of plant cell wall structure showing cellulose microfibrils",
+        "width": 768
+      },
+      "tag": "img/both.svg",
+      "associated": ["cell_membrane"]
+    },
+    "mitochondrion":{
+      "title": "Mitochondrion",
+      "class": "root",
+      "definition": "Mitochondria are membrane-bound organelles in eukaryotic cells that generate most of the chemical energy (ATP) used by the cell.",
+      "url": "https://www.genome.gov/genetics-glossary/Mitochondria",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Animal_mitochondrion_diagram_en.svg.png",
+        "alt": "Cross-sectional diagram of a mitochondrion showing inner membranes (cristae)",
+        "width": 768
+      },
+      "tag": "img/eukaryote.svg",
+      "associated": ["cytoplasm", "nucleus"]
+    },
+    "chloroplast": {
+      "title": "Chloroplast",
+      "class": "root",
+      "definition": "A chloroplast is an organelle in plant and algal cells that is the site of photosynthesis, containing chlorophyll to capture light energy.",
+      "url": "https://www.britannica.com/science/chloroplast",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Chloroplast.svg/1024px-Chloroplast.svg.png",
+        "alt": "Labeled diagram of a chloroplast ultrastructure",
+        "width": 768
+      },
+      "tag": "img/eukaryote.svg",
+      "associated": ["cytoplasm"]
+    },
+    "ribosome":{
+      "title": "Ribosome",
+      "class": "root",
+      "definition": "A ribosome is an intracellular complex of RNA and protein that serves as the site of protein synthesis, translating mRNA into proteins.",
+      "url": "https://www.genome.gov/genetics-glossary/Ribosome",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Ribosome_structure_including_subunits_and_binding_sites.png",
+        "alt": "Diagram of a ribosome with mRNA and tRNA, showing A and P sites",
+        "width": 600
+      },
+      "tag": "img/both.svg",
+      "associated": ["nucleolus", "cytoplasm"]
+    },
+    "cytoskeleton":{
+      "title": "Cytoskeleton",
+      "class": "structure",
+      "definition": "The cytoskeleton is a network of protein filaments (such as actin filaments and microtubules) that extends throughout the cytoplasm and gives cells structural support, shape, and organization.",
+      "url": "https://www.nature.com/scitable/definition/cytoplasm-280/",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Cytoskeleton.jpg",
+        "alt": "Fluorescence image of cells highlighting cytoskeleton filaments (actin in red, microtubules in green)",
+        "width": 800
+      },
+      "tag": "img/both.svg",
+      "associated": ["cytoplasm"]
+    },
+    "flagellum":{
+      "title": "Flagellum",
+      "class": "root",
+      "definition": "A flagellum is a long, whip-like cellular appendage that propels the cell through fluid; for example, many bacteria have rotating helical flagella that allow them to swim.",
+      "url": "https://commons.wikimedia.org/wiki/File:Flagellum_base_diagram-en.svg",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Flagellum_base_diagram-en.svg/1024px-Flagellum_base_diagram-en.svg.png",
+        "alt": "Structure of a Gram-negative bacterial flagellum and basal body",
+        "width": 768
+      },
+      "tag": "img/both.svg",
+      "associated": ["cell_membrane"]
+    },
+    "plasmid":{
+      "title": "Plasmid",
+      "class": "root",
+      "definition": "A plasmid is a small circular DNA molecule found in bacteria and some eukaryotic cells that is separate from the chromosomal DNA. Plasmids replicate independently and often carry genes, such as those for antibiotic resistance.",
+      "url": "https://www.genome.gov/genetics-glossary/Plasmid",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Plasmid_(english).svg/2560px-Plasmid_(english).svg.png",
+        "alt": "Illustration of a bacterium showing chromosomal DNA and multiple plasmids",
+        "width": 768
+      },
+      "tag": "img/prokaryote.svg",
+      "associated": ["dna"]
+    },
+    "nucleic-acids": {
     "class": "root",
     "title": "Nucleic Acids",
     "description": "A nucleic acid refers to any of the group of complex compounds consisting of chains of monomers of nucleotides. Each monomeric unit is composed of phosphate group, sugar, and nitrogenous base. Nucleic acids are involved in the preservation, replication, and expression of hereditary information in every living cell.",
@@ -282,7 +479,7 @@
     "class": "branch",
     "title": "Cloning",
     "description": "Cloning refers to creating genetically identical copies of biological material, such as genes, cells, or entire organisms. Techniques include molecular cloning of DNA and reproductive cloning, which raises ethical and biological questions.",
-    "image": {"src": "", "alt": ""},
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cloning_diagram_english.svg", "alt": ""},
     "links": [{
       "url": "https://www.genome.gov/genetics-glossary/Cloning",
       "label": "Genetics Home Reference: Cloning"
@@ -308,7 +505,7 @@
     "class": "branch",
     "title": "Genetic Therapy",
     "description": "Genetic therapy (gene therapy) involves modifying or manipulating genes to treat or prevent diseases. Techniques include replacing faulty genes, inactivating malfunctioning ones, or introducing new genes to improve health outcomes.",
-    "image": {"src": "", "alt": ""},
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Gene_therapy.jpg", "alt": ""},
     "links": [{
       "url": "https://ghr.nlm.nih.gov/primer/therapy/genetherapy",
       "label": "Genetics Home Reference: Gene Therapy"
@@ -334,7 +531,7 @@
     "class": "branch",
     "title": "Mutations",
     "description": "Mutations are changes in the DNA sequence that can affect gene function and lead to genetic diversity or diseases. They can be caused by errors in replication, environmental factors, or inherited.",
-    "image": {"src": "", "alt": ""},
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Simple_Example_for_Accumulation_of_Genetic_Mutations.png", "alt": ""},
     "links": [{
       "url": "https://www.genome.gov/genetics-glossary/Mutation",
       "label": "Genetics Home Reference: Mutation"
@@ -347,7 +544,7 @@
     "class": "branch",
     "title": "Recombinant DNA Technology",
     "description": "Recombinant DNA technology involves combining DNA from different organisms to create new genetic combinations with desirable traits. It underpins genetic engineering, cloning, and biotechnology.",
-    "image": {"src": "", "alt": ""},
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Recombinant_DNA_Molecule.png", "alt": ""},
     "links": [{
       "url": "https://www.genome.gov/genetics-glossary/Recombinant-DNA-Technology",
       "label": "Genetics Home Reference: Recombinant DNA Technology"
@@ -373,7 +570,7 @@
     "class": "branch",
     "title": "Enzyme Activity",
     "description": "Enzyme activity refers to the rate at which enzymes catalyze biochemical reactions. It is influenced by factors like substrate concentration, temperature, pH, and inhibitors, and is fundamental for cellular metabolism.",
-    "image": {"src": "", "alt": ""},
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Coupled_assay_tr.png", "alt": ""},
     "links": [{
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK22387/",
       "label": "NCBI Bookshelf: Enzyme Activity"
@@ -399,7 +596,7 @@
     "class": "leaf",
     "title": "Genome",
     "description": "The complete set of DNA, including all of its genes, in an organism or virus.",
-    "image": {"src": "", "alt": "", "width": 0},
+    "image": {"src": "", "alt": ""},
     "links": [{
       "url": "https://www.genome.gov/genetics-glossary/Genome",
       "label": "Genetics Home Reference: Genome"
@@ -412,7 +609,7 @@
     "class": "leaf",
     "title": "Genetic Mapping",
     "description": "The process of determining the location and chemical sequence of specific genes on chromosomes.",
-    "image": {"src": "", "alt": "", "width": 0},
+    "image": {"src": "", "alt": ""},
     "links": [{
       "url": "https://www.genome.gov/about-genomics/fact-sheets/Genetic-Map-Overview",
       "label": "Genome.gov: Genetic Map Overview"
@@ -425,7 +622,7 @@
     "class": "leaf",
     "title": "Genomics",
     "description": "The study of genomes, their structure, function, evolution, and mapping.",
-    "image": {"src": "", "alt": "", "width": 0},
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Omics-en.svg", "alt": ""},
     "links": [{
       "url": "https://www.genome.gov/genetics-glossary/Genomics",
       "label": "Genetics Home Reference: Genomics"
@@ -438,7 +635,7 @@
     "class": "leaf",
     "title": "Transcriptomics",
     "description": "The study of RNA transcripts produced by the genome, including their quantity and sequence under specific conditions.",
-    "image": {"src": "", "alt": "", "width": 0},
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Omics-en.svg", "alt": ""},
     "links": [{
       "url": "https://www.genome.gov/genetics-glossary/Transcriptome",
       "label": "Genetics Home Reference: Transcriptome"
@@ -451,7 +648,7 @@
     "class": "leaf",
     "title": "Proteomics",
     "description": "The large-scale study of proteins, their structures, functions, and interactions.",
-    "image": {"src": "", "alt": "", "width": 0},
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Omics-en.svg", "alt": ""},
     "links": [{
       "url": "https://www.genome.gov/genetics-glossary/Proteomics",
       "label": "Genetics Home Reference: Proteomics"
@@ -464,7 +661,7 @@
     "class": "leaf",
     "title": "Conservation Genetics",
     "description": "Application of genetics to preserve species diversity and prevent extinction.",
-    "image": {"src": "", "alt": "", "width": 0},
+    "image": {"src": "", "alt": ""},
     "links": [{
       "url": "https://www.nature.com/subjects/conservation-genetics",
       "label": "Nature: Conservation Genetics"
@@ -477,7 +674,7 @@
     "class": "leaf",
     "title": "Synthetic Biology",
     "description": "Engineering of organisms to design and construct new biological parts and systems.",
-    "image": {"src": "", "alt": "", "width": 0},
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Synthetic_Biology_Enabled_Microbiome_Engineering_in_Sustainable_Agriculture.jpg", "alt": ""},
     "links": [{
       "url": "https://www.nature.com/subjects/synthetic-biology",
       "label": "Nature: Synthetic Biology"
@@ -490,7 +687,7 @@
     "class": "leaf",
     "title": "Personalized Medicine",
     "description": "Tailoring medical treatment based on individual genetic profiles.",
-    "image": {"src": "", "alt": "", "width": 0},
+    "image": {"src": "", "alt": ""},
     "links": [{
       "url": "https://www.genome.gov/health/Precision-Medicine",
       "label": "Genetics Home Reference: Precision Medicine"
@@ -503,7 +700,7 @@
     "class": "leaf",
     "title": "Microbiomes",
     "description": "The collective genomes of the microorganisms living in a particular environment, such as the human gut.",
-    "image": {"src": "", "alt": "", "width": 0},
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Personalized_Cancer_Therapy.png", "alt": ""},
     "links": [{
       "url": "https://www.genome.gov/genetics-glossary/Microbiome",
       "label": "Genetics Home Reference: Microbiome"
@@ -516,7 +713,7 @@
     "class": "leaf",
     "title": "Evolutionary Trees (Phylogenetics)",
     "description": "Diagrams showing evolutionary relationships among species based on genetic or morphological data.",
-    "image": {"src": "", "alt": "", "width": 0},
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Phylogenetic_Tree_of_Rodentia.jpg", "alt": ""},
     "links": [{
       "url": "https://www.nature.com/subjects/phylogenetics",
       "label": "Nature: Phylogenetics"
@@ -529,7 +726,7 @@
     "class": "leaf",
     "title": "Medical Applications",
     "description": "Use of biological knowledge and techniques in diagnosis, treatment, and prevention of diseases.",
-    "image": {"src": "", "alt": "", "width": 0},
+    "image": {"src": "", "alt": ""},
     "links": [{
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4285979/",
       "label": "NCBI PMC: Medical Applications of Biotechnology"
@@ -542,7 +739,7 @@
     "class": "leaf",
     "title": "DNA Sequencing",
     "description": "Techniques used to determine the exact order of nucleotides in a DNA molecule.",
-    "image": {"src": "", "alt": "", "width": 0},
+    "image": {"src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Duplex_sequencing_overview_alphabeta_fix.svg", "alt": ""},
     "links": [{
       "url": "https://www.genome.gov/genetics-glossary/DNA-Sequencing",
       "label": "Genetics Home Reference: DNA Sequencing"
